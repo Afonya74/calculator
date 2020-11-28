@@ -1,0 +1,58 @@
+       * {
+           box-sizing: border-box;
+       }
+       
+       body {
+           margin: 0;
+           padding: 0;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+       }
+       
+       .calculator {
+           border: outset;
+           width: fit-content;
+       }
+       
+       .indicator {
+           margin: 3px;
+           border: 1px solid;
+           width: 21rem;
+           height: 3rem;
+       }
+       
+       .sign_btn {
+           background-color: lightgrey;
+           width: 5rem;
+       }
+       
+       .flex_row {
+           display: flex;
+       }
+       
+       .flex_cell {
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           height: 3rem;
+           width: 5rem;
+           border: 1px solid;
+           margin: 3px;
+       }
+       
+       .equal_btn {
+           height: 13.2rem;
+       }
+       
+       .equ_btn {
+           background-color: dodgerblue;
+           color: white;
+           width: 5rem;
+       }
+       
+       .btn {
+           width: 5rem;
+           height: 3rem;
+       }
