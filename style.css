@@ -9,18 +9,25 @@
            justify-content: center;
            align-items: center;
            height: 100vh;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 1rem;
        }
        
        .calculator {
            border: outset;
            width: fit-content;
+           font-family: , Helvetica, sans-serif;
        }
        
        .indicator {
            margin: 3px;
            border: 1px solid;
            width: 21rem;
-           height: 3rem;
+           height: 4rem;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           font-size: 2rem;
+           scroll-behavior: smooth;
+           overflow: auto;
        }
        
        .sign_btn {
@@ -38,7 +45,6 @@
            align-content: center;
            height: 3rem;
            width: 5rem;
-           border: 1px solid;
            margin: 3px;
        }
        
